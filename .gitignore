@@ -50,3 +50,7 @@ Thumbs.db
 
 # Profiler / captures (keep Docs screenshots)
 /[Pp]rofiler/
+
+# Local-only notes (not for GitHub)
+Docs/作品集演示脚本*
+Docs/FEATURES_AND_DEMO_BRIEF.md
