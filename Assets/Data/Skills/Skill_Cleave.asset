@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e658873943a96164e9ebbd9615a110c0, type: 3}
+  m_Name: Skill_Cleave
+  m_EditorClassIdentifier: Assembly-CSharp::ARPG.Skills.SkillData
+  skillId: arc_cleave
+  displayName: Cleave
+  description: 
+  cooldown: 2.5
+  castTime: 0
+  activeDuration: 0.15
+  baseDamage: 22
+  attackPowerScale: 1
+  range: 2.6
+  radius: 1.8
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  vfxPrefab: {fileID: 0}
+  sfxClip: {fileID: 0}
+  vfxSocketName: Weapon
+  damageFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isBasicAttack: 0
+  canMoveWhileCasting: 0
